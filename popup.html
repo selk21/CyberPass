@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CyberPass</title>
+    <link href="./demo.css" rel="stylesheet">
+</head>
+<body>
+    <button id="exit-button">Exit</button>
+    <h1>CyberPass</h1>
+    <img src="/images/cyber-security-128.png" alt="CyberPass Logo">
+    <div class ="password-feature">
+        <h2>Password Checker</h2>
+            <div class="form-signin">
+                <input type="text" id="value" class="form-control" placeholder="Password" autofocus/>
+                <button type="button" id="checkPass" class="btn">Search & Rate</button>
+                <div class="result-box">
+                    <p>Result:</p>
+                    <textarea id="result" class="form-text" readonly></textarea>
+                    <div id="password-rating"></div>
+                </div>
+            </div>
+    </div>
+    <div class="password-feature">
+        <h2>Password Generator</h2>
+            <div class="result-container">
+                <textarea id="result1" class="form-text-generator" readonly></textarea>
+                <button class="btn" id="clipboard">Copy</button>
+            </div>
+            <div class="settings">
+                <div class="setting">
+                    <label>Password length</label>
+                    <input type="number" id="length" min='4' max='20' value='12' />
+                </div>
+            <div class="setting">
+                <label>Include uppercase letters</label> 
+                <input type="checkbox" id="uppercase" checked />
+            </div>
+            <div class="setting">
+                <label>Include lowercase letters</label> 
+                <input type="checkbox" id="lowercase" checked />
+            </div>
+            <div class="setting">
+                <label>Include numbers</label> 
+                <input type="checkbox" id="numbers" checked />
+            </div>
+            <div class="setting">
+                <label>Include symbols</label> 
+                <input type="checkbox" id="symbols" checked />
+            </div>
+        </div>
+        <button class="btn" id="generate">Generate password</button>
+    </div>
+    <div class ="password-feature">
+        <h2>Password Security "Do's and Don'ts"</h2>
+        <div class="do-section">
+            <u>Do's:</u>
+            <li>Use a combination of upper- and lower-case letters, numbers and symbols.</li>
+            <li>Use a unique password for each account and avoid using the same password for multiple accounts. If one account is compromised, all your accounts are at risk.</li>
+            <li>Change your passwords regularly.</li>
+            <li>Enable two-factor authentication whenever it's possible. Two-factor authentication adds an extra layer of security to your accounts by requiring a second factor in addition to your password.</li>
+        </div>
+        <div class="dont-section">
+            <u>Dont's:</u>
+            <li>Don't place special characters (!, ?, @, etc...) only at the beginning or the end.</li>
+            <li>Don't use personal information. Avoid using personal information like your name, birthdate, or address in your passwords, as these are easy to guess.</li>
+            <li>Don't use common keyboard patterns like 123456 or abc123.</li>
+            <li>Don't use any common words found in a dictionary. Hackers use automated programs to crack passwords using special programs that scan for any word found in a dictionary.</li>
+        </div>
+        <div class="link">
+        <a href="https://blog.netwrix.com/2022/11/14/nist-password-guidelines/" target="_blank">NIST Password Guidelines</a>
+        </div>
+    </div>
+    <button id="showAboutPopup">About</button>
+    <div id="about" class="hidden">
+      <h2>About Me</h2>
+      <hr>
+      <p>Hi there! My name is Shadi Elkhatib and I am currently a senior at California State University, Fullerton, pursuing a degree in computer science with a focus on cybersecurity. I created "CyberPass" as a way to assist users in improving their password security and cyber hygiene in order to protect themselves from the threats of cybercriminals trying to compromise their accounts.
+         </p>
+      <button id="closeAboutPopup">Close</button>
+    </div>
+    <button id="showContactPopup">Contact</button>
+    <div id="contact" class="hidden">
+        <h2>Contact Information</h2>
+        <hr>
+        <p>
+            <b>Email:</b> <a href="mailto:s.elk21@csu.fullerton.edu" target="_blank">s.elk21@csu.fullerton.edu</a>
+            <br>
+            <br>
+            <b>Github:</b> <a href="https://github.com/selk21/CyberPass" target="_blank">https://github.com/selk21/CyberPass</a>
+        </p>
+            <button id="closeContactPopup">Close</button>
+    </div>
+      <script src="javascript/about.js"></script>
+      <script src="javascript/contact.js"></script>
+      <script src="javascript/exit.js"></script>
+      <script src="javascript/result.js"></script>
+      <script src="javascript/check.js"></script>
+      <script src="javascript/rater.js"></script>
+      <script src="javascript/generator.js"></script>
+</body>
+</html>

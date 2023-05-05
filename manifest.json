@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "CyberPass",
+  "version": "1.0",
+  "description": "CyberPass enhances your online security by helping you check if your passwords have been compromised, generating unique passwords, and informing you about password security etiquette.",
+  "host_permissions": [
+    "https://api.pwnedpasswords.com/*"
+  ],
+  "icons": {
+    "16": "/images/cyber-security-16.png",
+    "32": "/images/cyber-security-32.png",
+    "128": "/images/cyber-security-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

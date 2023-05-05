@@ -1,0 +1,178 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    text-shadow: 2px 4px 4px rgba(255, 0, 0, 0.6);
+}
+
+h2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+body {
+    height: 700px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(250, 250, 253);
+}
+
+.password-feature {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.form-signin {
+    text-align: center;
+}
+
+.form-text {
+    height: 65.5px;
+    width: 290px;
+}
+
+.form-text-generator {
+    height: 15.5px;
+    width: 225px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.result-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+  
+.result-box p {
+    font-weight: bold;
+}
+
+#password-rating {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.settings {
+    font-size: 14px
+}
+
+.setting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#clipboard {
+    margin-left: 10px;
+}
+
+#generate {
+    display: block;
+    margin: 0 auto;
+}
+
+#checkPass {
+    margin-left: 10px;
+}
+
+.do-section {
+    color: green;
+    font-size: 13px;
+}
+
+.dont-section {
+    color: red;
+    font-size: 13px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#about {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#contact {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    font-size: 13px;
+}
+
+#showAboutPopup {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+#showContactPopup {
+    margin-left: 125px;
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#closeContactPopup {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+a { 
+    color: blue;
+}
