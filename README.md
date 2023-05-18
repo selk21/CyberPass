@@ -1,5 +1,5 @@
 # How to install and deploy CyberPass
-Method #1: Add the extension to your browser from the Chrome Web Store using this link: https://chrome.google.com/webstore/detail/cyberpass/bhkdlklafmcbioaaacedmfljedfcigec?hl=en&authuser=0 
+Method #1: Add the extension to your browser from the Chrome Web Store using this link: https://chrome.google.com/webstore/detail/cyberpass/bhkdlklafmcbioaaacedmfljedfcigec
 
 Method #2: Download the code from this repository and load the extension manually by following these steps:
 
